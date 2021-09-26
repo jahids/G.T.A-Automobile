@@ -30,7 +30,7 @@ const Cart = (props) => {
             <h5 className="card-title text-dark fw-bold">Car Added {props.total.length}</h5>
             <p className="card-text text-dark fw-bold">Total Price:{price}</p>
             <p className="card-text text-dark fw-bold">{name}</p>
-            <img class="img-fluid" src={img} alt="" srcset="" />
+            <img class="img-fluid rounded-3 mb-3" src={img} alt="" srcset="" />
 
             {
 
