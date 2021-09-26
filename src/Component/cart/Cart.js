@@ -19,7 +19,6 @@ const Cart = (props) => {
 
 
 
-
     
     const element = <FontAwesomeIcon icon={ faShoppingBag } />
     return (
