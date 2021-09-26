@@ -18,8 +18,8 @@ const Car = (props) => {
 
 <div>
     
-    <div className="container ">
-    <div className="col ">
+
+    <div className="col h-100">
     <div className=" card h-100 shadow p-3 mb-5 bg-body rounded">
       <img src={img} className="card-img-top" alt="..."/>
       <div className="card-body">
@@ -35,7 +35,7 @@ const Car = (props) => {
       </div>
 
 </div> 
-</div>
+
  </div>
 
     );

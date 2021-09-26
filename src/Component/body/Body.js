@@ -34,32 +34,32 @@ const Body = () => {
           
 
               <div className="row">
-              <div className="all-cart col-md-9 mt-5">
-                 
+                <div className="col-md-9 mt-5">
+                    
 
-                 <div className="custom row row-cols-1 row-cols-md-3 g-4 ">
+                    <div className="custom row row-cols-1 row-cols-md-3 g-2 ">
 
-                 {
-                  Data.map(datas => <Car
-                  key={datas.id}
-                  post={datas}
-                  handle={handaler}
+                    {
+                    Data.map(datas => <Car
+                    key={datas.id}
+                    post={datas}
+                    handle={handaler}
 
-                  ></Car>)
-              }
+                    ></Car>)
+                }
 
-                  </div>
-                  
-             
+                    </div>
+                    
+                
 
-             </div>
+                </div>
 
-             <div className="cart-function col-md-3 mt-5 ">
+                <div className="cart-function col-md-3 mt-5 ">
 
-                      <Cart 
-                      total = {product}
-                      ></Cart>
-             </div>
+                        <Cart 
+                        total = {product}
+                        ></Cart>
+                </div>
 
               </div>
 
